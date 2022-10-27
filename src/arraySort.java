@@ -20,7 +20,7 @@ public class arraySort {
         float result =  ((float)sumArr) / ((float)arr.length);
         System.out.println("Середнє значення = " + result);
     }
-    public static void invert(Integer[] arr) {
+    public static void duplicateToZero(Integer[] arr) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
                 if (Objects.equals(arr[i], arr[j])) arr[j] = 0;

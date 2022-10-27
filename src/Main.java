@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Modified Array[]: " + Arrays.toString(myArray));
         arraySort.sort(myArray);
         arraySort.average(myArray);
-        arraySort.invert(myArray1);
+        arraySort.duplicateToZero(myArray1);
         System.out.println("Занулені дублікати: " + Arrays.asList(myArray1));
     }
 }
